@@ -34,7 +34,9 @@ public class BranchService {
         branch.setCreationDate(LocalDateTime.now());
         branch.setLastModifiedDate(LocalDateTime.now());
         branch.setState("ACTIVE");
+        
         log.info("Creando nueva sucursal con email: {}", branch.getEmail());
+        
         return mapper.toDTO(repository.save(branch));
     }
 
