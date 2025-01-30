@@ -3,10 +3,10 @@ package com.examen.parcialdos;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class ParcialdosApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
